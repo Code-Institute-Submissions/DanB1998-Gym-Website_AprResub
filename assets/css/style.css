@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    font-family: 'Bebas Neue', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(88, 88, 88);
+}
+
+.navname {
+    color: white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.navname h3 {
+    font-size: 40px;
+}
+
+.navname h3 i {
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.links {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.nav-item {
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.nav-item a{
+    color: white;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.nav-item a:hover {
+    background-color: grey;
+    color: white;
+}
