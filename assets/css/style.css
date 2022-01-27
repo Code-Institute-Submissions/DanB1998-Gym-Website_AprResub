@@ -60,6 +60,13 @@ nav {
     height: 100vh;
 }
 
+.whatsonimg {
+    background-image: url(/assets/images/whatsonimg.png);
+    width: 100%;
+    height: 50vh;
+    transform: scaleX(-1);
+}
+
 footer{
     height: 125px;
     text-align: center;
