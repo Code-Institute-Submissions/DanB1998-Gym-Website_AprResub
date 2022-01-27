@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Nav code */
+/* Global code */
 
 nav {
     font-family: 'Bebas Neue', sans-serif;
@@ -155,4 +155,10 @@ footer i{
     nav .links li {
         text-align: center;
     }
+}
+
+/* What's on code */
+
+.class-title h3{
+    text-align: center;
 }
