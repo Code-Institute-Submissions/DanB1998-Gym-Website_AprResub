@@ -5,11 +5,11 @@
     font-family: 'Bebas Neue', sans-serif;
 }
 
-.row {
-    margin: 0;
-}
-
 /* Global code */
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
 
 nav {
     display: flex;
@@ -39,12 +39,12 @@ nav {
 
 .links {
     display: flex;
-    width: 45%;
+    width: 40%;
     justify-content: space-between;
 }
 
 .links a {
-    font-size: 21px;
+    font-size: 25px;
 }
 
 .nav-item {
