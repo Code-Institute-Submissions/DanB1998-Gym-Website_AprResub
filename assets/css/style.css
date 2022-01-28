@@ -213,3 +213,14 @@ footer i{
     width: 100%;
     text-align: center;
 }
+
+.classesimg {
+    text-align: center;
+}
+
+.classesimg img{
+    padding: 10px;
+    width: 80%;
+    height: 80%;
+    border-radius: 30px;
+}
