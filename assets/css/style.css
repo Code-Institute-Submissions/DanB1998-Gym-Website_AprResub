@@ -6,8 +6,7 @@
 }
 
 .row {
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
 }
 
 /* Global code */
@@ -168,6 +167,14 @@ footer i{
 
 /* What's on code */
 
+.class-title {
+    background-color: rgb(90,90,90);
+}
+
+#offer {
+    background-color: rgb(90,90,90);
+}
+
 .class-title h3{
     text-align: center;
     padding: 25px;
@@ -178,6 +185,8 @@ footer i{
     text-align: center;
     font-size: 25px;
     padding: 25px;
+    background-color: rgb(90,90,90);
+    margin-bottom: 0px;
 }
 
 
@@ -193,4 +202,9 @@ footer i{
     text-align: center;
     padding: 30px;
     font-size: 25px;
+}
+
+.classes {
+    width: 100%;
+    text-align: center;
 }
