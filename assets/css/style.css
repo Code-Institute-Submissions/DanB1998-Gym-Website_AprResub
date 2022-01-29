@@ -280,6 +280,14 @@ footer i{
     position: absolute;
 }
 
+.memberstext i {
+    font-size: 50px;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+
+
 .members-text-title {
     background-color: violet;
     width: 100%;
@@ -297,16 +305,19 @@ footer i{
     background-color: yellow;
     height: 25%;
     width: 100%;
+    display: flex;
 }
 
 .membership2 {
     background-color: rgb(0, 183, 255);
     height: 25%;
     width: 100%;
+    display: flex;
 }
 
 .membership3 {
     background-color: rgb(0, 255, 128);
     height: 25%;
     width: 100%;
+    display: flex;
 }
