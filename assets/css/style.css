@@ -121,10 +121,12 @@ footer i{
 
 .landingtext h3 {
     padding: 20px;
+    font-size: 40px;
 }
 
 .landingtext h4 {
     padding: 20px;
+    font-size: 30px;
 }
 
 .navbutton {
