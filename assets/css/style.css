@@ -282,11 +282,13 @@ footer i{
 
 .memberstext i {
     font-size: 50px;
-    padding: 15px;
-    margin-top: 40px;
 }
 
-
+.memberstext p {
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
 
 .members-text-title {
     background-color: violet;
@@ -320,4 +322,31 @@ footer i{
     height: 25%;
     width: 100%;
     display: flex;
+}
+
+.prices{
+    height: 800px;
+}
+
+.prices h5 {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.prices p {
+    font-size: 60px;
+    text-align: center;
+}
+
+.entry {
+    background-color: antiquewhite;
+}
+
+.intermediate {
+    background-color: blue;
+}
+
+.pro {
+    background-color: coral;
 }
