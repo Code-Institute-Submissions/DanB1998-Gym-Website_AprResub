@@ -6,7 +6,7 @@ This project is from the perspective of a gym business looking to advertise itse
 
 The aim of the website is to be attractive, easy to use and simple to navigate. This means all users shouldn't have an issue getting to all of the content and interacting with the website where possible.
 
-## User Stories
+# User Stories
 
 As the website owner:
 
@@ -29,3 +29,19 @@ As a returning user:
 * To be able to find information such as class times and membership prices.
 
 * Ask a question or revisit any business information quickly and easily.
+
+# Structure
+
+I used bootstrap to make the majority of my webpage reponsive and to give the page its structure. Bootstrap allows the website to be scaled down onto smaller devices as it will restructure the webpage as the dimensions of the page change. This will increase the amount of browsers my website can be viewed on so I am not restricted by the device that the pages viewers are using.
+
+# Wireframes
+
+# Features 
+
+## Nav Bar
+
+![NavBar](/assets/images/navbar.png)
+
+The Nav Bar is designed to be simple and easy to use. The links will disappear and a clickable dropdown menu will appear when the media query is triggered. This makes the nav bar responsive on all devices.
+
+
