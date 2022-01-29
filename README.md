@@ -44,4 +44,25 @@ I used bootstrap to make the majority of my webpage reponsive and to give the pa
 
 The Nav Bar is designed to be simple and easy to use. The links will disappear and a clickable dropdown menu will appear when the media query is triggered. This makes the nav bar responsive on all devices.
 
+# Validator Testing
+
+# Deployment
+
+This project was deployed on github pages. I used gitpod as my developer environment and committed often to ensure good version control. Git push allowed me to save changes to gihthub.
+
+Steps to deploying project on github pages:
+
+1. Navigate to settings on desired repository.
+2. Scroll down to the github pages section near the bottom.
+3. Select the main branch, and the root directory.
+4. Save and github pages will deploy the site. 
+
+Your site is published at https://danb1998.github.io/MilestoneProject/
+
+You can also run the repository locally.
+
+1. Navigate to the repository and download.
+2. Download the zip file containing the code.
+3. Extract the file and use in an appropriate environment.
+
 
