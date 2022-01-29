@@ -9,6 +9,7 @@
 
 p {
     font-family: 'Raleway', sans-serif;
+    font-size: 15px;
 }
 
 span {
@@ -408,12 +409,14 @@ footer i{
 
 #form input {
     width: 40%;
+    border: solid 1px black;
 }
 
 #form textarea {
     width: 60%;
     margin-left: 115px;
     height: 200px;
+    border: solid 1px black;
 }
 
 .submitbutton {
