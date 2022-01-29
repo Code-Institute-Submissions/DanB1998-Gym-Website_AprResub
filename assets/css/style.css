@@ -225,6 +225,25 @@ footer i{
     border-radius: 30px;
 }
 
+.ourclasses h3{
+    padding: 10px;
+    font-size: 50px;
+}
+
+.ourclasses p{
+    padding: 10px;
+    font-size: 30px;
+}
+
+.classesimg h5{
+    font-size: 35px;
+}
+
+.classesimg {
+    margin-bottom: 50px;
+}
+
+
 /* Contact code */
 
 .contactimg {
