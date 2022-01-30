@@ -45,12 +45,16 @@ nav {
 
 .links {
     display: flex;
-    width: 40%;
+    width: 50%;
     justify-content: space-between;
 }
 
+.links ul {
+    display: flex;
+}
+
 .links a {
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .nav-item {
@@ -147,33 +151,39 @@ footer i{
 }
 
 .navbutton .line {
-    height: 3px;
+    height: 5px;
     width: 100%;
     background-color: white;
     border-radius: 8px;
 }
 
 @media (max-width: 1250px) {
+    
     .navbutton {
         display: flex;
     }
 
-    nav .links {
+    .links {
+        width: 100%;
         display: none;
     }
 
-    nav {
+    .navbar {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    nav .links ul {
+    .links ul {
         width: 100%;
         flex-direction: column;
     }
 
-    nav .links li {
+    .links li {
         text-align: center;
+    }
+
+    .links.active {
+        display: flex;
     }
 }
 
