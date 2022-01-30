@@ -74,13 +74,13 @@ nav {
 }
 
 .landingimg {
-    background-image: url(images/landingimg.png);
+    background-image: url(../images/landingimg.png);
     width: 100%;
     height: 100vh;
 }
 
 .whatsonimg {
-    background-image: url(images/whatsonimg.png);
+    background-image: url(../images/whatsonimg.png);
     width: 100%;
     height: 50vh;
     transform: scaleX(-1);
@@ -264,7 +264,7 @@ footer i{
 /* Members code */
 
 .membersimg {
-    background-image: url(images/members.png);
+    background-image: url(../images/members.png);
     width: 100%;
     height: 100vh;
 }
@@ -378,7 +378,7 @@ footer i{
 /* Contact code */
 
 .contactimg {
-    background-image: url(images/contact.png);
+    background-image: url(../images/contact.png);
     width: 100%;
     height: 100vh;
 }
