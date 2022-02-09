@@ -122,10 +122,9 @@ footer i{
     color: white;
     border: solid 1px white;
     background-color: rgb(90,90,90);
-    width: 30vh;
-    height: 30vh;
-    margin-left: 20vw;
     margin-top: 40vh;
+    margin-left: 80px;
+    width: 400px;
 }
 
 .landingtext h3 {
@@ -387,7 +386,6 @@ footer i{
     border: solid 1px white;
     align-items: center;
     padding: 50px;
-    position: absolute;
 }
 
 .form h2 {
@@ -421,11 +419,16 @@ footer i{
     height: 20vh;
 }
 
-@media (max-width: 1024px) {
-    .memberstext {
-        height: unset;
-        width: unset;
-        margin: 50px 40px;
-        padding: 40px;
+@media (max-width: 550px) {
+    .landingtext {
+        width: 200px;
+    }
+
+    .landingtext h3 {
+        font-size: 30px;
+    }
+    
+    .landingtext h4 {
+        font-size: 20px;
     }
 }
