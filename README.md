@@ -52,7 +52,23 @@ The Nav Bar is designed to be simple and easy to use. The links will disappear a
 
 The footer is basic and easy to use. It also has icons with links to social pages which open in new tabs, to aid best practices.
 
-## Landing Pages
+## Landing Page
+
+![Footer](/assets/images/landingpage.png)
+
+The landing pages on the site are designed to be eye catching and attracctive. This is done by using contrasting colours and keeping to a set theme.
+
+## Colours
+
+The main colour I used was 'rgb(90,90,90)' and white.
+
+These 2 colours went well together as they give a modern look and go well against each other.
+
+## Fonts
+
+The main fonts used were 'font-family: 'Raleway', sans-serif;' and 'font-family: 'Bebas Neue', sans-serif;'.
+
+I chose these fonts as they were clear and neat, and also looked good against the chosen colours.
 
 ## Technologies used
 
