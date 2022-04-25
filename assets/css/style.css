@@ -179,7 +179,7 @@ footer i{
         text-align: center;
     }
 
-    .links.active {
+    .active {
         display: flex;
     }
 }
