@@ -263,20 +263,20 @@ footer i{
 .membersimg {
     background-image: url(../images/members.png);
     width: 100%;
-    height: 100vh;
+    height: 1000px;
 }
 
 .memberstext {
     height: 750px;
     width: 700px;
-    margin-left: 125px;
     margin-top: 100px;
+    margin-left: 125px;
     background-color: white;
-    position: absolute;
     background-color: rgb(90,90,90);
     color: white;
     border-radius: 10px;
     border: solid 1px white;
+    position: absolute;
 }
 
 .memberstext i {
@@ -418,6 +418,24 @@ footer i{
     height: 20vh;
 }
 
+@media (max-width: 900px) {
+    .memberstext {
+        height: unset;
+        width: unset;
+        margin: 50px;
+    }
+
+
+    .whatsonimg {
+        zoom: 0.5;
+        height: 600px;
+    }
+
+    .landingimg {
+        zoom: 0.85;
+    }
+}
+
 @media (max-width: 550px) {
     .landingtext {
         width: 200px;
@@ -430,12 +448,42 @@ footer i{
     .landingtext h4 {
         font-size: 20px;
     }
+
+    .membersimg {
+        background-image: none;
+        background-color: black;
+        height: unset;
+    }
+    
+    .memberstext {
+        position: unset;
+        margin: 0px;
+    }
+
+    .memberstext i {
+        font-size: 20px;
+        padding: 10px
+    }
+
 }
 
-@media (max-width: 900px) {
-    .memberstext {
-        height: unset;
-        width: unset;
-        margin: 50px;
+@media (max-width: 425px) {
+    
+    .navname h3 {
+        font-size: 30px;
+    }
+
+    .navname h3 i {
+        font-size: 25px;
+        margin-left: 7px;
+    }
+
+    .classesimg h5 {
+        font-size: 25px;
+    }
+
+    .whatsonimg {
+        zoom: 0.25;
+        height: 600px;
     }
 }
