@@ -5,7 +5,7 @@
     font-family: 'Bebas Neue', sans-serif;
 }
 
-/* Global code */
+/* Global styles */
 
 p {
     font-family: 'Raleway', sans-serif;
@@ -16,6 +16,8 @@ span {
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
 }
+
+/* NavBar CSS */
 
 nav {
     display: flex;
@@ -73,6 +75,26 @@ nav {
     color: white;
 }
 
+.navbutton {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 30px;
+}
+
+.navbutton .line {
+    height: 5px;
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* Index.html CSS */
+
 .landingimg {
     background-image: url(../images/landingimg.png);
     background-size: cover;
@@ -86,6 +108,28 @@ nav {
     height: 50vh;
     transform: scaleX(-1);
 }
+
+.landingtext{
+    float: left;
+    text-align: center;
+    color: white;
+    border: solid 1px white;
+    background-color: rgb(90,90,90);
+    margin-top: 40vh;
+    margin-left: 80px;
+    width: 400px;
+}
+
+.landingtext h3 {
+    padding: 20px;
+    font-size: 40px;
+}
+
+.landingtext h4 {
+    font-size: 30px;
+}
+
+/* Footer CSS */
 
 footer{
     height: 125px;
@@ -115,76 +159,6 @@ footer ul {
 footer i{
     color: white;
 }
-
-.landingtext{
-    float: left;
-    text-align: center;
-    color: white;
-    border: solid 1px white;
-    background-color: rgb(90,90,90);
-    margin-top: 40vh;
-    margin-left: 80px;
-    width: 400px;
-}
-
-.landingtext h3 {
-    padding: 20px;
-    font-size: 40px;
-}
-
-.landingtext h4 {
-    font-size: 30px;
-}
-
-.navbutton {
-    position: absolute;
-    top: 25px;
-    right: 30px;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 40px;
-    height: 30px;
-}
-
-.navbutton .line {
-    height: 5px;
-    width: 100%;
-    background-color: white;
-    border-radius: 8px;
-}
-
-@media (max-width: 1250px) {
-    
-    .navbutton {
-        display: flex;
-    }
-
-    .links {
-        width: 100%;
-        display: none;
-    }
-
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .links ul {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .links li {
-        text-align: center;
-    }
-
-    .links.active {
-        display: flex;
-    }
-}
-
-/* What's on code */
 
 .class-title {
     background-color: rgb(90,90,90);
@@ -258,7 +232,7 @@ footer i{
     margin-bottom: 50px;
 }
 
-/* Members code */
+/* Members CSS */
 
 .membersimg {
     background-image: url(../images/members.png);
@@ -371,7 +345,7 @@ footer i{
     margin-top: 40px;
 }
 
-/* Contact code */
+/* Contact CSS */
 
 .contactimg {
     background-image: url(../images/contact.png);
@@ -416,6 +390,38 @@ footer i{
     border: solid 1px black;
     width: 100%;
     height: 20vh;
+}
+
+/* Media Queries */
+
+@media (max-width: 1250px) {
+    
+    .navbutton {
+        display: flex;
+    }
+
+    .links {
+        width: 100%;
+        display: none;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .links li {
+        text-align: center;
+    }
+
+    .links.active {
+        display: flex;
+    }
 }
 
 @media (max-width: 900px) {
